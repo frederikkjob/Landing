@@ -1,0 +1,396 @@
+body{
+    line-height: 1.5;
+    margin: 0;
+background-color: #fce9b0;
+}
+
+
+*{
+    box-sizing: border-box;
+        /*outline: 1px solid red;*/
+       
+    
+} 
+
+
+
+
+.row {
+
+        display: flex;
+        flex-wrap: wrap;
+      flex-direction:row;
+      margin: 3%;
+      padding-bottom: 0;
+      justify-content: space-evenly;
+}
+
+.divtitle{
+
+width: 32%;
+text-align: left;
+
+
+}
+
+.divlogo{
+
+    text-align: center;
+    width: 32%;
+}
+.divlogo img{
+width: fit-content;
+height: 85px;
+
+}
+
+.divnav {
+    
+    text-align: center;
+    width: 32%;
+
+
+}
+
+
+    
+
+.float{
+    float: right;
+    margin-top: 12%;
+    margin-right: 5%;
+}
+
+.burger{
+    width: 45px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+ 
+
+
+
+}
+
+
+
+.banner{
+    background-image: url(Images/shirts1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 12rem;
+
+   
+}
+.omos{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    margin-bottom: 5%;
+   
+}
+
+.btn{
+    border: 2px;
+  color: rgb(2, 90, 11);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.koenkol{
+    width: 50%;
+    display: flex;
+    padding: 1%;
+ 
+}
+
+.koenbtn{
+    background-image: url(Images/skjorte.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 12rem;
+    padding: 2%;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin: 0 auto;
+    
+
+
+}
+.koenbtn:hover{
+background-color: blueviolet;
+color: rgb(162, 162, 162);
+transform: scale(1.1);
+
+}
+
+.koenbtn2{
+    background-image: url(images/Kskjorte.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 12rem;
+    padding: 2%;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin: 0 auto;
+
+}
+.koenbtn2:hover{
+    color: blueviolet;
+    color: rgb(169, 169, 169);
+    transform: scale(1.1);
+    }
+.nabtn1{
+    background-image: url(Images/gucci.webp);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    width: 32%;
+    height: 15rem;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin: 0 auto;
+
+
+}
+.nabtn2{
+    background-image: url(Images/levibukser.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    width: 32%;
+    height: 15rem;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin: 0 auto;
+
+
+}
+.nabtn3{
+    background-image: url(Images/kskjorte3.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    width: 32%;
+    height: 15rem;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin: 0 auto;
+
+
+}
+
+.nabtn:hover{
+    background-color: blueviolet;
+    color: red;
+    transform: scale(1.1);
+    
+}
+
+.na{
+    text-align: center;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 5%;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  @media (min-width:48em){
+
+    .header li{
+        float:left;
+    }
+    .header li a{
+        padding:20px 30px;
+    }
+    .header .menu{
+        clear:none;
+        float:right;
+        max-height:none;
+    }
+    .header .menu-icon{
+        display:none;
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive
+
+
+.fcol1 {
+    
+    display: block;
+    text-align: center;
+ width: 33.3%;
+  background-color: DarkSalmon;
+  color: rgb(160, 29, 29);
+  }
+  .fcol2 {
+    display: block;
+    text-align: center;
+  width: 33.3%;
+  color: rgb(160, 29, 29);
+  }
+  .fcol2 img{
+      height: 85px;
+      width: 100%;
+      margin-top: 15px;
+
+  }
+
+
+
+  .fcol3{
+    display: block;
+    text-align: center;
+    width: 33.3%;
+  background-color: DarkSalmon;
+  color: rgb(160, 29, 29);
+  }
+
+ .m0{
+     margin: 0%;
+     padding: 0%;
+     background-color: rgb(255, 236, 196);
+ }
+
+
+
+
+
+
+
+
+
+
+
+ 
+  .footerlogo{
+
+    text-align: center;
+    width: 100%;
+}
+.footerlogo img{
+height: 85px;
+background-size: cover;
+text-align: center;
+width: 32%;
+}
+
+.footerlogo img{
+width: fit-content;
+height: 85px;
+}
+.footer{
+display: block;
+
+}
+
+.table {
+
+
+    font-size: 100%;
+
+
+}
